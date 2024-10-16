@@ -61,9 +61,11 @@ const onLangChange = (function () {
 
     languageSelect.value = 'es';
     languageSelect.onchange = event => {
-        currentLang = lang[languageSelect.value];
+        const val = languageSelect.value;
+        document.documentElement.lang = val;
+        currentLang = lang[val];
         for (const listener of listeners) {
-            listener(lang[languageSelect.value]);
+            listener(lang[val]);
         }
     };
 
