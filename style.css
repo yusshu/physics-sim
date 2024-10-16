@@ -1,0 +1,72 @@
+body {
+    background-color: #1f1b21;
+    color: #ffffffbb;
+}
+
+h1 {
+    display: block;
+    color: #ffffffcb;
+    text-align: center;
+}
+
+canvas {
+    display: block;
+    border: 1px solid #ffffff22;
+    margin: 0 auto;
+}
+
+#lang-label {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+#selector {
+    display: flex;
+    margin: 2vh auto;
+    width: min-content;
+    gap: 2vw;
+}
+
+button, #lang-label select {
+    background: none;
+    color: #ffffffbb;
+    border: 1px solid #ffffff22;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+#lang-label select option {
+    color: black;
+}
+
+button:hover {
+    background-color: #ffffff22;
+}
+
+#master-controls {
+    display: flex;
+    flex-direction: row;
+    margin: 2vh;
+    justify-content: center;
+    gap: 2vw;
+    align-items: center;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+    margin: 2vh auto;
+    width: 50vw;
+}
+
+#controls div {
+    display: flex;
+    flex-direction: row;
+}
+
+#controls input {
+    flex: 1;
+}
