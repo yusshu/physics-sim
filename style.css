@@ -13,6 +13,8 @@ canvas {
     display: block;
     border: 1px solid #ffffff22;
     margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
 }
 
 #lang-label {
@@ -59,7 +61,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     margin: 2vh auto;
-    width: 50vw;
+    max-width: 600px;
 }
 
 #controls div {
